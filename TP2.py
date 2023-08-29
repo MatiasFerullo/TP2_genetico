@@ -1,7 +1,7 @@
 from itertools import combinations
 
 def densitySort(x):
-    return x[1]/x[0]
+    return x[0]/x[1]
 
 def sumSort(x):
     return sum(item[1] for item in x)
